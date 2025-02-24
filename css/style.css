@@ -26,6 +26,10 @@ h2{
     font-size: 45px;
 }
 
+h3{
+    font-size: 35px;
+}
+
 p{
     margin: 15px auto ;
     line-height: 1.5;
@@ -76,10 +80,6 @@ p{
     margin: 30px auto;
 }
 
-.mini-content{
-    border: 2px dashed #fff;
-}
-
 .foot{
     border: 1px solid #000;
     margin-top: 10px;
@@ -117,6 +117,14 @@ p{
     padding: 10px;
 }
 
+.stars{
+    width: 700px;
+    height: 120px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
 
 /* Elements */
 .small-button{
