@@ -40,6 +40,11 @@ p{
     line-height: 1.5;
 }
 
+hr{
+    border-color: #8EA1E1;
+}
+
+/* Links related */
 a{
     text-decoration: none;
     color: #fff;
@@ -59,10 +64,6 @@ a{
 
 .white-btn a:visited{
     color: #000;
-}
-
-hr{
-    border-color: #8EA1E1;
 }
 
 /* Flexbox tools */
@@ -176,6 +177,10 @@ hr{
     padding: 10px;
 }
 
+.img-paragraph img{
+    max-width: 100%;
+}
+
 .stars{
     width: 700px;
     height: 120px;
@@ -260,4 +265,34 @@ hr{
 
 .text-center{
     text-align: center;
+}
+
+/* Animations */
+.white-btn a:hover{
+    color: #8EA1E1;
+}
+
+.header-center ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-about div a:hover{
+    text-decoration:underline;
+}
+
+.white-btn:hover{
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    color: #8EA1E1;
+    transition: 0.3s;
+}
+
+.black-btn:hover{
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+.blue-btn:hover{
+    box-shadow: 2px 2px 5px 0px rgba(255, 255, 255, 0.3);
+    background-color: #A6B9F9;
+    transition: 0.3s;
 }
