@@ -35,6 +35,12 @@ p{
     line-height: 1.5;
 }
 
+
+/* Flexbox tools */
+.inline-block{
+    display: inline-block;
+}
+
 .d-flex{
     display: flex;
 }
@@ -50,6 +56,14 @@ p{
 .align-content{
     display: flex;
     justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.align-content-left{
+    display: flex;
+    justify-content: flex-start;
     align-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -83,6 +97,13 @@ p{
 .foot{
     border: 1px solid #000;
     margin-top: 10px;
+}
+
+.footer-about{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: #fff;
 }
 
 .foot-btn{
@@ -150,7 +171,24 @@ p{
     min-height: 600px;
 }
 
+.social-icon{
+    margin: 10px 30px 0px 0px;
+}
+
+.ITA{
+    height: 20px;
+    margin: 20px 0 15px 0;
+}
+.ITA img{
+    height: 20px;
+    margin-right: 10px;
+}
+
 /* Utility */
+.blue-text{
+    color: #8EA1E1;
+}
+
 .bg-lightblue{
     background-color: #255EE9;
 }
