@@ -17,6 +17,17 @@ li{
     margin: 0 10px;
 }
 
+h1{
+    font-size: 50px;
+    margin: 0.5em auto;
+}
+
+
+p{
+    margin: 15px auto ;
+    line-height: 1.5;
+}
+
 .d-flex{
     display: flex;
 }
@@ -49,24 +60,24 @@ li{
     padding: 10px;
 }
 
+.logo{
+    height: 50px;
+}
+
 .container{
     max-width: 1180px;
     margin: 0 auto;
 }
 
 .content{
-    height: 300px;
-    border: 2px dashed #000;
-    margin: 20px 0;
+    margin: 30px auto;
 }
 
 .mini-content{
-    height: 300px;
     border: 2px dashed #fff;
 }
 
 .foot{
-    height: 80px;
     border: 1px solid #000;
     margin-top: 10px;
 }
@@ -77,21 +88,21 @@ li{
     margin: 25px 0;
 }
 
-.col-home{
-    width: 65%;
-    margin: auto;
-}
-
-.col-60{
-    width: 60%;
+.col-30{
+    width: 30%;
 }
 
 .col-40{
     width: 40%;
 }
 
-.col-30{
-    width: 30%;
+.col-60{
+    width: 60%;
+}
+
+.col-home{
+    width: 70%;
+    color: #fff;
 }
 
 .col-100{
@@ -105,6 +116,21 @@ li{
     padding: 8px 15px;
     margin: 7px auto;
     border-radius: 20px; 
+}
+
+.button{
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 10px auto;
+    border-radius: 25px; 
+}
+
+.jumbo-background{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 600px;
 }
 
 /* Utility */
@@ -127,4 +153,18 @@ li{
 .white-btn{
     background-color: white;
     color: #000;
+}
+
+.black-btn{
+    background-color: #23272A;
+    color: #fff;
+}
+
+.blue-btn{
+    background-color: #8EA1E1;
+    color: #fff;
+}
+
+.text-center{
+    text-align: center;
 }
