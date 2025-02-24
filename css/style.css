@@ -40,6 +40,30 @@ p{
     line-height: 1.5;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.blue-btn a, .black-btn a{
+    color: #fff;
+}
+
+.white-btn a{
+    color: #000;
+}
+
+.blue-btn a:visited, .black-btn a:visited{
+    color: #fff;
+}
+
+.white-btn a:visited{
+    color: #000;
+}
+
+hr{
+    border-color: #8EA1E1;
+}
 
 /* Flexbox tools */
 .inline-block{
@@ -76,6 +100,11 @@ p{
     flex-wrap: wrap;
 }
 
+.v-align-center{
+    align-content: center;
+    align-items: center;
+}
+
 /* Contenitori */
 .header-side{
     width: 20%;
@@ -101,11 +130,6 @@ p{
     margin: 30px auto;
 }
 
-.foot{
-    border: 1px solid #000;
-    margin-top: 10px;
-}
-
 .footer-about{
     margin-top: 70px;
     margin-bottom: 30px;
@@ -115,6 +139,11 @@ p{
 
 .footer-about div{
     margin-top: 15px;
+}
+
+.footer-end{
+    margin-top: 20px;
+    margin-bottom: 70px;
 }
 
 .foot-btn{
