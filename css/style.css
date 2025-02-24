@@ -193,13 +193,18 @@ a{
     max-width: 100%;
 }
 
+.gallery{
+    overflow: auto;
+    white-space: nowrap;
+}
+
 .card{
     width: 100%;
     border-radius: 20px;
 }
 
-.card img{
-    width: 100%;
+.card-img{
+    max-width: 600px;
     border-radius: 20px;
 }
 
@@ -313,8 +318,8 @@ a{
     padding: 15px;
 }
 
-.padding30{
-    padding: 30px;
+.padding-card{
+    padding: 30px 70px;
 }
 
 /* Animations */
